@@ -1,0 +1,7 @@
+<launch>
+
+	<node pkg="lab1" type="numeric_talker.py" name="numeric_talker" output="screen"/>
+
+	<node pkg="lab1" type="numeric_listener.py" name="numeric_listener" output="screen"/>
+
+</launch>
